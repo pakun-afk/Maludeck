@@ -19,7 +19,7 @@ jobs:
       - name: Extract Base Project
         run: |
           # Extract semua zip yang ada
-          for zip in base.zip; do
+          for zip in bases.zip; do
             unzip -o "$zip" -d temp
           done
           # Pindahin isi folder android ke root (kalo ada)
